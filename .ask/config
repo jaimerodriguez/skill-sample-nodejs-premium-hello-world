@@ -1,0 +1,36 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.7148d32d-4660-49e1-a241-dbd638817384",
+      "was_cloned": false,
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "64ac85036a473f0a260edc87eb514a62"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "3b9198e3bdb2a8f2bbcedb0b7fd00517"
+          },
+          "es-US": {
+            "eTag": "020e91260df93ea11fc4f59677ec8d75"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:us-west-2:467610051821:function:isp-test",
+            "awsRegion": "us-west-2",
+            "codeUri": "lambda/custom",
+            "functionName": "isp-test",
+            "handler": "index.handler",
+            "revisionId": "008fa122-d919-4dd8-b946-2bb24efbbf7f",
+            "runtime": "nodejs8.10"
+          }
+        ]
+      }
+    }
+  }
+}

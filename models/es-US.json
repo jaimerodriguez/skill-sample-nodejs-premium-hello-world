@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "purchase test",
+      "invocationName": "compra prueba",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
@@ -19,13 +19,9 @@
           "name": "WelcomeIntent",
           "slots": [],
           "samples": [
-            "hello",
-            "how are you",
-            "say hi world",
-            "say hi",
-            "hi",
-            "say hello world",
-            "say hello"
+            "hola",
+            "como estas",
+            "saludos" 
           ]
         },
         {
@@ -36,11 +32,8 @@
           "name": "PremiumGreetingIntent",
           "slots": [],
           "samples": [
-            "give me a premium greeting",
-            "say hello in other languages",
-            "give me the special greeting",
-            "give me the premium greeting",
-            "give me the secret greeting"
+            "dame un saludo",
+            "saludo premio" 
           ]
         },
         {
@@ -55,10 +48,10 @@
           "name": "BuyIntent",
           "slots": [],
           "samples": [
-            "Purchase premium pack",
-            "Purchase premium greetings",
-            "Give me more greetings",
-            "Get premium pack",
+            "compra saludos",
+            "compra premios",
+            "adquiere saludos",
+            "compra grupo de premios",
             "Buy premium pack"
           ]
         },
@@ -66,28 +59,28 @@
           "name": "WhatCanIBuyIntent",
           "slots": [],
           "samples": [
-            "what is available for purchase",
-            "what can I purchase",
-            "what can I buy"
+            "que puedo comprar",
+            "que vendes",
+            "en que gasto"
           ]
         },
         {
           "name": "PurchaseHistoryIntent",
           "slots": [],
           "samples": [
-            "What have we purchased",
-            "What have I bought",
-            "What did I buy"
+            "que he comprado",
+            "historia",
+            "que compre"
           ]
         },
         {
           "name": "RefundIntent",
           "slots": [],
           "samples": [
-            "would like to return premium pack",
-            "want a refund for premium pack",
-            "return premium pack",
-            "refund for premium pack"
+            "devoluciones",
+            "devuelvelo",
+            "lo devuelvo ",
+            "devuelve los saludos"
           ]
         }
       ],

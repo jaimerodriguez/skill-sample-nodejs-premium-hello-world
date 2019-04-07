@@ -3,12 +3,21 @@
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "summary": "Sample Short Description",
+          "summary": "purchase test ",
           "examplePhrases": [
-            "Alexa open Premium Hello World",
+            "Alexa open purchase test",
             "give me a premium greeting"
           ],
           "name": "Hello World Sample w/In Skill Purchasing",
+          "description": "Sample Full Description"
+        }
+        , 
+        "es-US": {
+          "summary": "compra prueba",
+          "examplePhrases": [
+            "Alexa abre compra prueba" 
+          ],
+          "name": "Compra Prueba",
           "description": "Sample Full Description"
         }
       },
@@ -20,7 +29,8 @@
     "apis": {
       "custom": {
         "endpoint": {
-          "sourceDir": "lambda/custom"
+          "sourceDir": "lambda/custom",
+          "uri": "isp-test"
         }
       }
     },
