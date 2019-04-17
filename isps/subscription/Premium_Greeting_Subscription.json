@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "type": "SUBSCRIPTION",
+  "referenceName": "Premium_Greeting_Subscription",
+  "subscriptionInformation": {
+    "subscriptionPaymentFrequency": "MONTHLY",
+    "subscriptionTrialPeriodDays": 21
+  },
+  "publishingInformation": {
+    "locales": {
+      "en-US": {
+        "name": "Premium Greeting Subscription",
+        "summary": "Premium Greeting Subscription Description",
+        "description": "Premium Greeting Subscription Detailed description.  This can be 4000 chars long. ",
+        "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/4171/0ceb321e433b473f91ebbe5c13af951c/APP_ICON?versionId=YeFknkZuhbgiEEHCSUB1.dzo6ElA0FQn&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190417T041007Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86399&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c24926069568e67105ee514041d1757846b9a5186789053d3ef6bd7f7cbcbb1f",
+        "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/2f2c/bff6386b2c464bf98e7b9de81608ff3d/APP_ICON_LARGE?versionId=irHOMr1XB0oSyL15twZQjxEIo8BVDnSs&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190417T041007Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5140b60dd56a8ab2513e9be97380684411a73fc07078c162fc6d862f76e0fd71",
+        "examplePhrases": [
+          "Purchase Subscription",
+          "Buy  premium greeting subscription",
+          "Subscribe me"
+        ],
+        "keywords": [
+          "greetings subscription"
+        ],
+        "customProductPrompts": {
+          "purchasePromptDescription": "The premium greeting pack subscription says hello in a variety of languages like French, Spanish, Hindi and more.",
+          "boughtCardDescription": "Congratulations! You now have the Premium greeting pack subscription. "
+        }
+      }
+    },
+    "distributionCountries": [
+      "US"
+    ],
+    "pricing": {
+      "amazon.com": {
+        "releaseDate": "2019-04-06T00:00Z",
+        "defaultPriceListing": {
+          "price": 0.99,
+          "currency": "USD"
+        }
+      }
+    },
+    "taxInformation": {
+      "category": "INFORMATION_SERVICES"
+    }
+  },
+  "privacyAndCompliance": {
+    "locales": {
+      "en-US": {
+        "privacyPolicyUrl": "https://localhost/privacy.html"
+      }
+    }
+  },
+  "purchasableState": "PURCHASABLE"
+}

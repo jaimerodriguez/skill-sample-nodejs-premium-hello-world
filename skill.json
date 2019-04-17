@@ -1,39 +1,48 @@
 {
   "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "https://7bb0f2e1.ngrok.io",
+          "sslCertificateType": "Wildcard"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "summary": "purchase test ",
+          "name": "Hello World Sample w/In Skill Purchasing",
+          "summary": "purchase test",
+          "description": "Sample Full Description",
           "examplePhrases": [
             "Alexa open purchase test",
             "give me a premium greeting"
-          ],
-          "name": "Hello World Sample w/In Skill Purchasing",
-          "description": "Sample Full Description"
-        }
-        , 
-        "es-US": {
-          "summary": "compra prueba",
+          ]
+        },
+        "en-GB": {
+          "name": "British Sample w/In Skill Purchasing",
+          "summary": "purchase test",
+          "description": "Sample Full Description",
           "examplePhrases": [
-            "Alexa abre compra prueba" 
-          ],
+            "Alexa open purchase test",
+            "give me a premium greeting"
+          ]
+        },
+        "es-US": {
           "name": "Compra Prueba",
-          "description": "Sample Full Description"
+          "summary": "compra prueba",
+          "description": "Sample Full Description",
+          "examplePhrases": [
+            "Alexa abre compra prueba"
+          ]
         }
       },
       "isAvailableWorldwide": true,
       "testingInstructions": "Sample Testing Instructions.",
       "category": "EDUCATION_AND_REFERENCE",
       "distributionCountries": []
-    },
-    "apis": {
-      "custom": {
-        "endpoint": {
-          "sourceDir": "lambda/custom",
-          "uri": "isp-test"
-        }
-      }
-    },
-    "manifestVersion": "1.0"
+    }
   }
 }

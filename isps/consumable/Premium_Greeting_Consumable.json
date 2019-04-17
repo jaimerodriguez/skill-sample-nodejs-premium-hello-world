@@ -1,0 +1,51 @@
+{
+  "version": "1.0",
+  "type": "CONSUMABLE",
+  "referenceName": "Premium_Greeting_Consumable",
+  "publishingInformation": {
+    "locales": {
+      "en-US": {
+        "name": "Premium Greeting Consumable",
+        "summary": "Premium Greeting Consumable Description",
+        "description": "Premium Greeting Consumable Detailed Description",
+        "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/dc4d/8296ff90a04a421dae4886475d28c550/APP_ICON?versionId=2IvIOG9LUK2SIY5j1RZJYaR2S29WRanV&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190417T041009Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=69d76e0db415eaef54c1456bd8c51bd55e27eed64bbc82dd5a19fd4d53724c9d",
+        "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/bde8/d4875a1db965482dbba1f950fea99204/APP_ICON_LARGE?versionId=C49QjO41ijmx_x1DCJ2sxg1hUK0mjxp6&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190417T041009Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7f617216250f13cae2223e095ebe3fac24918c658775f49e7fe96b49be06b65b",
+        "examplePhrases": [
+          "Purchase Premium Greeting Consumable",
+          "Purchase just one greeting",
+          "Purchase consumable"
+        ],
+        "keywords": [
+          "consumable greeting"
+        ],
+        "customProductPrompts": {
+          "purchasePromptDescription": "Purchase one greeting",
+          "boughtCardDescription": "You have purchased a greeting"
+        }
+      }
+    },
+    "distributionCountries": [
+      "US"
+    ],
+    "pricing": {
+      "amazon.com": {
+        "releaseDate": "2019-04-06T00:00Z",
+        "defaultPriceListing": {
+          "price": 0.99,
+          "currency": "USD"
+        }
+      }
+    },
+    "taxInformation": {
+      "category": "INFORMATION_SERVICES"
+    }
+  },
+  "privacyAndCompliance": {
+    "locales": {
+      "en-US": {
+        "privacyPolicyUrl": "http://localhost/privacy.html"
+      }
+    }
+  },
+  "purchasableState": "PURCHASABLE"
+}

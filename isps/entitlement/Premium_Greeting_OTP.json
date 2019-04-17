@@ -1,0 +1,74 @@
+{
+  "version": "1.0",
+  "type": "ENTITLEMENT",
+  "referenceName": "Premium_Greeting_OTP",
+  "publishingInformation": {
+    "locales": {
+      "en-US": {
+        "name": "Premium Greeting OTP",
+        "summary": "Premium Greeting OTP description",
+        "description": "Premium Greeting OTP detailed description",
+        "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/8df6/66c2bf18cb604a8d8a6e8554926e24cb/APP_ICON?versionId=WiaGuOkbWcYA2cLrg1FuJN5cMU7KVc4f&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190417T041010Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=3f21148983fb375f03781e8ed5a143066bd167248e2cf80cfbed4ccbde0e04ec",
+        "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/b67f/d5d9b4160b794199b3c20997f5309866/APP_ICON_LARGE?versionId=hRs8yEF3_OyzOulYubLK9vQBauh2i2jL&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190417T041010Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=db364f256daa3d305a483f4d3be9999ce37059fb59d37beb57e419a0b85e4321",
+        "examplePhrases": [
+          "Purchase Premium Greeting One Time offer",
+          "Purchase One Time offer",
+          "Purchase OTP"
+        ],
+        "keywords": [
+          "OTP one-time"
+        ],
+        "customProductPrompts": {
+          "purchasePromptDescription": "Purchase the One Time Premium Greetings Pack",
+          "boughtCardDescription": "Congratulations!  You have purchased the One Time Premium Greetings Pack"
+        }
+      },
+      "en-GB": {
+        "name": "Premium Greeting OTP",
+        "summary": "Premium Greeting OTP description",
+        "description": "Premium Greeting OTP detailed description",
+        "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/3913/c5bd1ef12b954b03b3b667fe4762ee80/APP_ICON?versionId=4JgK465i47GVkHpfrxEPLnDIOxZVvdZX&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190417T041010Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86399&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=eb7eeb3285d846f12870f7f5ba1d31c45fbe0c5a87bd148442681000b56fc084",
+        "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/3170/4c652272037c4029b08bfb7789f59174/APP_ICON_LARGE?versionId=lULJLyRK_th.lK2g2AzhV9xOse6tk18i&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190417T041010Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=ce3d5669294482b520202fe50cbf60b94c0271c8a655777eba704bed0866f161",
+        "examplePhrases": [
+          "Purchase Premium Greeting One Time offer",
+          "Purchase One Time offer",
+          "Purchase OTP"
+        ],
+        "keywords": [
+          "OTP one-time"
+        ],
+        "customProductPrompts": {
+          "purchasePromptDescription": "Purchase the One Time Premium Greetings Pack",
+          "boughtCardDescription": "Congratulations!  You have purchased the One Time Premium Greetings Pack"
+        }
+      }
+    },
+    "distributionCountries": [
+      "US",
+      "GB"
+    ],
+    "pricing": {
+      "amazon.com": {
+        "releaseDate": "2019-04-06T00:00Z",
+        "defaultPriceListing": {
+          "price": 0.99,
+          "currency": "USD"
+        }
+      }
+    },
+    "taxInformation": {
+      "category": "INFORMATION_SERVICES"
+    }
+  },
+  "privacyAndCompliance": {
+    "locales": {
+      "en-US": {
+        "privacyPolicyUrl": "https://localhost/privacy.html"
+      },
+      "en-GB": {
+        "privacyPolicyUrl": "https://localhost/privacy.html"
+      }
+    }
+  },
+  "purchasableState": "PURCHASABLE"
+}
