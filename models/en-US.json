@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "purchase test",
+      "invocationName": "premium hello world",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
@@ -93,5 +93,6 @@
       ],
       "types": []
     }
-  }
+  },
+  "version": "6"
 }
